@@ -11,13 +11,19 @@ export class CartItemComponent implements OnInit {
   item = new Item("Ioo1",
                   "https://i.ebayimg.com/thumbs/images/g/BPUAAOSwLbNk6M18/s-l300.webp",
                   "White Shirts",
-                  4 ,
+                  2 ,
                   299,
                   5);
+
+  inCart = 0;
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  updateCart(increment: boolean): void {
+   increment ? this.inCart++ :this.inCart--;
   }
 
 }
