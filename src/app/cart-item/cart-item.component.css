@@ -1,0 +1,39 @@
+.cart-item{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 300px;
+    display: flex ;
+    flex-direction: column;
+    align-items: center; 
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+}
+
+.item-image{
+    height: 320px;
+}
+
+.item-description{
+    margin-top: 10px;
+}
+
+.item-price{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.item-stock{
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.add-to-cart-ctrl{
+    width: 100px;
+    margin-top: 10px;
+
+    input{
+        text-align: center;
+    }
+}
