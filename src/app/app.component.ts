@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Dummy_Data } from './dummy-class';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Ebay-clone';
+  items = Dummy_Data;
 }

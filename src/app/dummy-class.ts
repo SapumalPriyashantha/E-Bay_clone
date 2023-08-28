@@ -1,6 +1,6 @@
 import { Item } from "./dto/item";
 
-const Dummy_Data : Array<Item> = [
+export const Dummy_Data : Array<Item> = [
     new Item("Ioo1",
             "https://i.ebayimg.com/thumbs/images/g/BPUAAOSwLbNk6M18/s-l300.webp",
             "White Shirts",

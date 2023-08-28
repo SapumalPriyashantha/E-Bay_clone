@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { Item } from '../dto/item';
 
 @Component({
@@ -8,12 +8,9 @@ import { Item } from '../dto/item';
 })
 export class CartItemComponent implements OnInit {
 
-  item = new Item("Ioo1",
-                  "https://i.ebayimg.com/thumbs/images/g/BPUAAOSwLbNk6M18/s-l300.webp",
-                  "White Shirts",
-                  2 ,
-                  299,
-                  5);
+  @Input()
+  item : Item | undefined;
+  
 
   inCart = 0;
 

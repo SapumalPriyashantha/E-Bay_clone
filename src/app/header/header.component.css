@@ -1,4 +1,34 @@
 header{
-    height: 50px;
-    background-color: yellow;
+    height: 70px;
+    background-color: rgb(225, 234, 237);
+    border-style: outset;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo{
+    background-image: url(../../assets/ebay-logo.png);
+    background-size: cover;
+    height: 71px;
+    width: 152px;
+}
+
+.cart_container{
+   
+}
+
+.cart_count{
+    position: relative;
+    right: 38px;
+    top: 15px;
+}
+
+.cart_logo{
+    background-image: url(../../assets/cart_logo.png);
+    background-size: cover;
+    position: relative;
+    right: 50px;
+    height: 34px;
+    width: 40px;
 }
