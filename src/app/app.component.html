@@ -1,4 +1,4 @@
-<app-header></app-header>
+<app-header [totalItemCart]="getTotalItemCart()"></app-header>
 <main>
-  <app-cart-item *ngFor="let it of items" [item]="it" ></app-cart-item>
+  <app-cart-item *ngFor="let it of items" [item]="it" (cartOnChange)="upDateCart($event, it)" ></app-cart-item>
 </main>

@@ -5,6 +5,10 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 9999;
 }
 
 .logo{
@@ -20,7 +24,7 @@ header{
 
 .cart_count{
     position: relative;
-    right: 38px;
+    right: 42px;
     top: 15px;
 }
 
